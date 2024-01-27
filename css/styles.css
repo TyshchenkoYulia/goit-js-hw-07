@@ -1,4 +1,4 @@
-
+/* =========================Task 1 ===================================== */
 .subtitle {
     font-size: 24px;
     font-weight: 600;
@@ -69,3 +69,18 @@ body {
     flex-direction: column;
     gap: 8px;
 }
+/* ========================= Task 2 ======================== */
+
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    row-gap: 24px;
+}
+
+.gallery-items {
+    width: 360px;
+    height: 300px;
+}
+/* ============================== Task 3 ============================ */
