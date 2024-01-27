@@ -44,7 +44,7 @@ const images = [
 
   
   const pictures = images.map((image) => 
-  `<li class="gallery-items"><img src="${image.url}" alt="${image.alt}" width=360></li>`)
+  `<li class="gallery-items"><img src="${image.url}" alt="${image.alt}" width=360/></li>`)
   .join("");
 
     gallery.insertAdjacentHTML("afterbegin", pictures);

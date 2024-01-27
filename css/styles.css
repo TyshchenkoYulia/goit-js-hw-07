@@ -1,7 +1,8 @@
-/* =========================Task 1 ===================================== */
+
 .subtitle {
     font-size: 24px;
     font-weight: 600;
+    margin: 50px;
 }
 
 
@@ -21,7 +22,7 @@ body {
     border-radius: 8px;
     background: #FFF;
 }
-
+/* =========================Task 1 ===================================== */
 #categories {
     display: inline-flex;
     padding: 24px;
@@ -77,10 +78,45 @@ body {
     flex-wrap: wrap;
     gap: 24px;
     row-gap: 24px;
+    width: 1440px; 
+    padding: 100px 156px;
 }
 
-.gallery-items {
-    width: 360px;
-    height: 300px;
-}
 /* ============================== Task 3 ============================ */
+
+#name-input {
+    width: 360px;
+    height: 40px;
+    border-radius: 4px;
+    border: 1px solid #808080;
+}
+/* ================================= Task 4 =========================== */
+
+.login-form {
+    display: inline-flex;
+    padding: 24px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+    border: 1px solid #808080;
+    border-radius: 8px;
+    background: #FFF;
+
+}
+
+.login-label {
+    display: flex;
+    width: 360px;
+    height: 40px;
+    flex-direction: column;
+}
+
+.form-btn {    
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 8px;
+    background: #4E75FF;
+    padding: 8px 16px;
+}
+/* ============================= Task 5 ============================= */
