@@ -8,10 +8,10 @@
 
 ul,
 ol {
-  list-style-type: none;
-  margin-top: 0;
-  margin-bottom: 0;
-  padding-left: 0;
+    list-style-type: none;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
 }
 
 body {
@@ -89,6 +89,7 @@ body {
     height: 40px;
     border-radius: 4px;
     border: 1px solid #808080;
+    
 }
 /* ================================= Task 4 =========================== */
 
@@ -101,7 +102,7 @@ body {
     border: 1px solid #808080;
     border-radius: 8px;
     background: #FFF;
-
+    background-color: #F6F6FE;
 }
 
 .login-label {
@@ -139,6 +140,7 @@ body {
     border-radius: 4px;
     border: 1px solid #808080;
     margin: 50px;
+    background-color: #F6F6FE;
 }
 
 .widget p {
@@ -146,3 +148,38 @@ body {
 }
 /* ================================== Task 6 =============================== */
 
+#controls {
+    display: flex;
+    gap: 16px;
+    margin-top: 32px;
+    margin-left: 32px;
+}
+
+#boxes {
+    margin-top: 32px;
+    margin-left: 32px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+}
+#controls input {
+    width: 150px;
+    height: 40px;
+    border-radius: 8px;
+    border: 1px solid #808080;
+    text-align: center;
+}
+.create-btn {
+    background-color: #4e75ff;
+    width: 120px;
+    height: 40px;
+    border-radius: 8px;
+    color: #ffffff;
+}
+.destroy-btn {
+    background-color: #FF4E4E;
+    width: 120px;
+    height: 40px;
+    border-radius: 8px;
+    color: #ffffff;
+}

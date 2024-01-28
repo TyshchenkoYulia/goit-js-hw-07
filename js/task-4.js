@@ -17,7 +17,7 @@ function onCheckForm(event) {
         password: `${password}`,
     }
 
-   console.log(submitForm) 
+   console.log(submitForm);
    form.reset();
 }
 
