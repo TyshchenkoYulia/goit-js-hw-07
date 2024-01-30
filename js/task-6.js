@@ -14,7 +14,8 @@ function getRandomHexColor() {
 
 
 function createBoxes(amount) {
-    boxes.innerHTML = "";
+   
+    destroyBoxes();
 
     let widthBox = 30;
     let heightBox = 30;
@@ -48,7 +49,11 @@ function destroyBoxes() {
   boxes.innerHTML = "";
 }
 
-destroyButton.addEventListener("click", destroyBoxes);
+function onDestroyButton(event) {
+  destroyBoxes();
+}
+
+destroyButton.addEventListener("click", onDestroyButton);
 
 
 

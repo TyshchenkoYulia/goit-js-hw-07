@@ -4,6 +4,7 @@
 
 const widget = document.querySelector('.widget');
 const spanColor = document.querySelector('.color');
+const button = document.querySelector('.change-color');
 
 
 function getRandomHexColor() {
@@ -14,7 +15,7 @@ function getRandomHexColor() {
 
 }
   
-widget.addEventListener("click", onButtonClick);
+button.addEventListener("click", onButtonClick);
 
 function onButtonClick() {
     

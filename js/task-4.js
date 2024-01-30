@@ -10,6 +10,7 @@ function onCheckForm(event) {
 
     if(email === "" || password === "") {
         alert('All form fields must be filled in');
+        return;
     }
 
     const submitForm = {
@@ -17,8 +18,9 @@ function onCheckForm(event) {
         password: `${password}`,
     }
 
-   console.log(submitForm);
-   form.reset();
+    console.log(submitForm);
+    return form.reset();
+     
 }
 
 form.addEventListener("submit", onCheckForm);
